@@ -82,3 +82,17 @@ a {
   font-size: 16px;
   line-height: 24px;
 }
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 72px;
+  }
+  .project-description {
+    text-align: center;
+  }
+  .row {
+    margin-bottom: 0;
+  }
+  .row p {
+    width: 100%;
+  }
+}
