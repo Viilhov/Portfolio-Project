@@ -54,3 +54,31 @@ a {
   font-family: var(--standard-fornt-family);
   font-size: 18px;
 }
+.sub-heading {
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+.row h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+  padding-top: 100px;
+}
+.row p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--pharagraph-color);
+  opacity: 0.7;
+  width: 80%;
+}
+.btn-project {
+  background-color: white;
+  color: var(--button-color);
+  border-color: var(--button-color);
+  padding: 15px 40px;
+  font-family: var(--standard-fornt-family);
+  font-size: 16px;
+  line-height: 24px;
+}
