@@ -89,10 +89,26 @@ a {
 .about-hero {
   padding: 200px 50px 200px 50px;
 }
-
-.home-link {
-  margin-top: 200px;
+.about-hero h1 {
+  padding-top: 30px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
 }
+.about-hero h2 {
+  font-family: var(--standard-fornt-family);
+  color: var(--pharagraph-color);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.viil {
+  max-width: 560px;
+  max-height: 560px;
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 200px 50px 100px 50px;
@@ -117,5 +133,14 @@ a {
     padding-top: 0;
     font-size: 54px;
     line-height: 65px;
+  }
+  .about-hero {
+    text-align: center;
+  }
+  .about-hero h2 {
+    font-size: 18px;
+  }
+  .viil {
+    margin-top: 70px;
   }
 }
