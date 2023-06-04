@@ -85,6 +85,10 @@ a {
 @media (max-width: 992px) {
   .hero h1 {
     font-size: 72px;
+    line-height: 98px;
+  }
+  .hero p {
+    font-size: 26px;
   }
   .project-description {
     text-align: center;
@@ -94,5 +98,9 @@ a {
   }
   .row p {
     width: 100%;
+  }
+  .row h2 {
+    padding-top: 0;
+    font-size: 54px;
   }
 }
