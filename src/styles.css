@@ -83,6 +83,9 @@ a {
   line-height: 24px;
 }
 @media (max-width: 992px) {
+  .hero {
+    padding: 200px 50px 100px 50px;
+  }
   .hero h1 {
     font-size: 72px;
     line-height: 98px;
@@ -102,5 +105,6 @@ a {
   .row h2 {
     padding-top: 0;
     font-size: 54px;
+    line-height: 65px;
   }
 }
