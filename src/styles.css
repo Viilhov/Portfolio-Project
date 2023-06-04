@@ -1,8 +1,10 @@
 :root {
-  --pharagraph-color: #272142;
+  --pharagraph-color: #455d7a;
   --heading-font-family: "Playfair Display", serif;
   --standard-fornt-family: "Poppins", sans-serif;
-  --button-color: #6c63ff;
+  --button-color: #f95959;
+  --background-color: #e3e3e3;
+  --heading-color: #233142;
 }
 
 h1,
@@ -12,9 +14,11 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
+  color: var(--heading-color);
 }
 p {
   font-family: var(--standard-fornt-family);
+  color: var(--heading-color);
 }
 
 a {
@@ -22,7 +26,7 @@ a {
 }
 .hero {
   text-align: center;
-  background: #f9f7fe;
+  background: var(--background-color);
   padding: 200px 50px 200px 50px;
 }
 
@@ -70,7 +74,7 @@ a {
   font-weight: 400;
   line-height: 30px;
   color: var(--pharagraph-color);
-  opacity: 0.7;
+  opacity: 0.8;
   width: 80%;
 }
 .btn-project {
