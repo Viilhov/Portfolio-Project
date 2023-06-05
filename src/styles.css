@@ -63,13 +63,13 @@ a {
   font-size: 18px;
   line-height: 27px;
 }
-.row h2 {
+.project-description h2 {
   font-size: 64px;
   font-weight: 700;
   line-height: 85px;
   padding-top: 100px;
 }
-.row p {
+.project-description p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -86,16 +86,17 @@ a {
   font-size: 16px;
   line-height: 24px;
 }
-.about-hero {
+.content {
   padding: 200px 50px 200px 50px;
 }
-.about-hero h1 {
+.content h1 {
   padding-top: 30px;
   font-size: 64px;
   font-weight: 700;
   line-height: 85px;
+  width: 70%;
 }
-.about-hero h2 {
+.content h2 {
   font-family: var(--standard-fornt-family);
   color: var(--pharagraph-color);
   font-size: 18px;
@@ -106,6 +107,21 @@ a {
 }
 .viil {
   width: 560px;
+}
+.content h3 {
+  font-family: var(--standard-fornt-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.content p {
+  font-family: var(--pharagraph-color);
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
@@ -125,18 +141,24 @@ a {
   .row {
     margin-bottom: 0;
   }
-  .row p {
+  .project-description p {
     width: 100%;
   }
-  .row h2 {
+  .project-description h2 {
     padding-top: 0;
     font-size: 54px;
     line-height: 65px;
   }
-  .about-hero {
+  .content {
     text-align: center;
   }
-  .about-hero h2 {
+  .content h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    line-height: 70px;
+  }
+  .content h2 {
     font-size: 18px;
     line-height: 20px;
   }
