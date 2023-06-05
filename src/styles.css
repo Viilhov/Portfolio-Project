@@ -123,6 +123,9 @@ a {
   line-height: 21px;
   text-align: center;
 }
+.contact-content {
+  text-align: left;
+}
 
 @media (max-width: 992px) {
   .hero {
