@@ -105,8 +105,7 @@ a {
   padding-bottom: 30px;
 }
 .viil {
-  max-width: 560px;
-  max-height: 560px;
+  width: 560px;
 }
 
 @media (max-width: 992px) {
