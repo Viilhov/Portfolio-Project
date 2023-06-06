@@ -121,15 +121,19 @@ a {
   font-weight: 400px;
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
-}
-.contact-content {
   text-align: left;
+}
+.contact {
+  text-align: left;
+  padding: 200px 50px 80px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
 }
 
 @media (max-width: 992px) {
   .hero {
-    padding: 200px 50px 100px 50px;
+    padding: 200px 50px 100px 50;
   }
   .hero h1 {
     font-size: 72px;
@@ -167,5 +171,11 @@ a {
   }
   .viil {
     margin-top: 70px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact-content {
+    text-align: center;
   }
 }
