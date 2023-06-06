@@ -20,9 +20,6 @@ p {
   font-family: var(--standard-fornt-family);
   color: var(--heading-color);
 }
-a {
-  display: block;
-}
 
 nav {
   padding: 20px 0;
@@ -38,7 +35,6 @@ nav li {
   margin-left: 15px;
 }
 nav a {
-  display: inline;
   font-family: var(--standard-fornt-family);
   text-decoration: none;
   color: var(--pharagraph-color);
@@ -159,6 +155,19 @@ nav a:hover,
 .contact-content a {
   text-decoration: none;
   color: var(--button-color);
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--heading-color);
+  font-family: var(--standard-fornt-family);
+}
+footer .email-link:hover {
+  color: var(--button-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 40px;
 }
 
 @media (max-width: 992px) {
