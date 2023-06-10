@@ -53,6 +53,7 @@ nav a:hover,
   text-align: center;
   background: var(--background-color);
   padding: 200px 50px 200px 50px;
+  margin-top: 50px;
 }
 
 .hero p {
@@ -112,7 +113,7 @@ nav a:hover,
   line-height: 24px;
 }
 .content {
-  padding: 200px 50px 200px 50px;
+  padding: 50px 50px 200px 50px;
 }
 .content h1 {
   padding-top: 30px;
@@ -136,7 +137,7 @@ nav a:hover,
 .content h3 {
   font-family: var(--standard-fornt-family);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   text-align: center;
@@ -146,11 +147,11 @@ nav a:hover,
   font-weight: 400px;
   font-size: 14px;
   line-height: 21px;
-  text-align: left;
+  text-align: center;
 }
 .contact {
   text-align: left;
-  padding: 200px 50px 80px 0;
+  padding: 50px 50px 80px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 85px;
@@ -243,6 +244,12 @@ footer .social-links a:hover {
     text-align: center;
   }
   .contact-content {
+    text-align: center;
+  }
+  .contact-box h4 {
+    text-align: center;
+  }
+  .contact-box p {
     text-align: center;
   }
 }
