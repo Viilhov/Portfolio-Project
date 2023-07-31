@@ -103,6 +103,10 @@ nav a:hover,
   opacity: 0.8;
   width: 80%;
 }
+.project-description a {
+  text-decoration: none;
+  color: var(--button-color);
+}
 .btn-project {
   background-color: white;
   color: var(--button-color);
