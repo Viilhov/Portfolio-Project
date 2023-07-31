@@ -164,6 +164,9 @@ nav a:hover,
   text-decoration: none;
   color: var(--button-color);
 }
+.projects p {
+  text-align: center;
+}
 footer {
   margin: 100px 0 50px 0;
 }
