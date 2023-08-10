@@ -259,4 +259,7 @@ footer .social-links a:hover {
   .contact-box p {
     text-align: center;
   }
+  footer .contact-box.d-flex.justify-content-between.mb-5.work-inquiry {
+    display: none;
+  }
 }
