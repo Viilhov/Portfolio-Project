@@ -240,6 +240,8 @@ footer .social-links a:hover {
   }
   .contact {
     text-align: center;
+    padding-right: 0;
+    font-size: 40px;
   }
   .contact-content {
     text-align: center;
